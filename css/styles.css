@@ -120,7 +120,7 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    padding: 0 24px;
+    padding: 72px 24px 24px 24px;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -172,7 +172,7 @@ img {
 }
 
 .modal-title {
-    margin-top: 72px;
+    margin-bottom: 16px;
 
     font-weight: 500;
     font-size: 16px;
@@ -182,7 +182,8 @@ img {
     color: var(--navy-blue-color);
 }
 
-.modal-form {}
+.modal-form {
+}
 
 .modal-field {
     position: relative;
@@ -222,17 +223,13 @@ img {
 }
 
 .modal-text {
-    display: inline-block;
+    display: block;
     margin-bottom: 4px;
 
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
-}
-
-.modal-text.top {
-    margin-top: 16px;
 }
 
 .input-wrap {
@@ -252,6 +249,7 @@ img {
 }
 
 .modal-comment {
+    display: block;
     width: 360px;
     height: 120px;
     resize: none;
@@ -273,7 +271,7 @@ img {
 }
 
 .modal-comment-text {
-    display: inline-block;
+    display: block;
     top: 0;
     margin-bottom: 4px;
 
@@ -705,6 +703,7 @@ img {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     border-radius: 4px;
     border: 1px solid #8E8F99;
@@ -921,11 +920,9 @@ img {
 }
 
 .footer-subscribe {
-    display: flex;
 }
 
 .footer-email {
-    margin-right: 24px;
 }
 
 .subscribe-text {
@@ -936,6 +933,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white-color);
+}
+
+.footer-form-subscribe {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .subscribe-label {
@@ -987,9 +990,6 @@ img {
 .subscribe-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    margin-top: 40px;
 
     min-width: 165px;
     height: 40px;

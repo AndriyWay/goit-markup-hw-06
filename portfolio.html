@@ -222,21 +222,23 @@
                         </li>
                     </ul>
                 </div>
-                <form class="footer-subscribe" name="footer-subscribe">
-                    <div class="footer-email">
-                        <p class="subscribe-text">Subscribe</p>
-                        <label class="subscribe-label">
-                            <input type="email" name="email" class="subscribe-input" placeholder=" ">
-                            <span class="subscribe-label-text">E-mail</span>
-                        </label>
-                    </div>
-                    <button type="submit" class="subscribe-btn">
-                        <span class="subscribe-btn-text">Subscribe</span>
-                        <svg class="subscribe-svg" width="24" height="20">
-                            <use href="./images/icon.svg#icon-send"></use>
-                        </svg>
-                    </button>
-                </form>
+                <div class="footer-subscribe">
+                    <p class="subscribe-text">Subscribe</p>
+                    <form class="footer-form-subscribe">
+                        <div class="footer-email">
+                            <label class="subscribe-label" name="email">
+                                <input type="email" name="email" class="subscribe-input" placeholder=" " required>
+                                <span class="subscribe-label-text">E-mail</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="subscribe-btn">
+                            <span class="subscribe-btn-text">Subscribe</span>
+                            <svg class="subscribe-svg" width="24" height="20">
+                                <use href="./images/icon.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>
